@@ -1,0 +1,19 @@
+{
+    "input": {
+        "data_file":  "data/classification/data.txt",
+        "image_path": "data/classification/"
+    },
+    "output": {
+        "save_dir": "data",
+        "color_type": "gray",
+        "shape": [30, 30]
+    },
+    "parameters": {
+        "x_times": 5,
+        "scale": [0.8, 1.2],
+        "radius": [-5, 5],
+        "angle": [-60, 60],
+        "gamma": [0.8, 1.2],
+        "flip": true
+    }
+}
